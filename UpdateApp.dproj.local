@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/27 12:40:32.000.685,=C:\Users\SIRS\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/03 07:26:49.000.132,=C:\Users\SIRS\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/03 07:31:15.000.418,C:\Users\SIRS\Documents\RAD Studio\Projects\Unit1.dfm=D:\Bakup\uji coba delphi\tool Update\update.dfm</Transaction>
+    <Transaction>2016/12/03 07:31:15.000.418,C:\Users\SIRS\Documents\RAD Studio\Projects\Unit1.pas=D:\Bakup\uji coba delphi\tool Update\update.pas</Transaction>
+    <Transaction>2016/12/03 07:31:41.000.039,C:\Users\SIRS\Documents\RAD Studio\Projects\Project1.dproj=D:\Bakup\uji coba delphi\tool Update\UpdateApp.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
