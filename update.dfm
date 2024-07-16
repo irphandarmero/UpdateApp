@@ -21,21 +21,26 @@ object frm_main: Tfrm_main
     Height = 13
     Caption = 'URL'
   end
-  object btUpdate: TcxButton
+  object label6: TLabel
+    Left = 8
+    Top = 119
+    Width = 4
+    Height = 13
+    Caption = '-'
+  end
+  object btUpdate: TButton
     Left = 96
     Top = 56
     Width = 125
     Height = 57
     Caption = 'UPDATE'
-    LookAndFeel.NativeStyle = False
-    LookAndFeel.SkinName = 'Silver'
-    TabOrder = 0
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -20
     Font.Name = 'Verdana'
     Font.Style = [fsBold]
     ParentFont = False
+    TabOrder = 0
     OnClick = btUpdateClick
   end
   object pLoading: TProgressBar
@@ -44,11 +49,6 @@ object frm_main: Tfrm_main
     Width = 305
     Height = 17
     TabOrder = 1
-  end
-  object label6: TcxLabel
-    Left = 8
-    Top = 119
-    Caption = '-'
   end
   object Button1: TButton
     Left = 219
@@ -64,7 +64,7 @@ object frm_main: Tfrm_main
     Top = 176
     Width = 233
     Height = 21
-    TabOrder = 4
+    TabOrder = 2
     Text = 'ftp://192.168.1.125/SIMRS/'
   end
   object ftp: TIdFTP

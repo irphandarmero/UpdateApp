@@ -21,10 +21,10 @@ uses
 
 type
   Tfrm_main = class(TForm)
-    btUpdate: TcxButton;
+    btUpdate: TButton;
     ftp: TIdFTP;
     pLoading: TProgressBar;
-    label6: TcxLabel;
+    label6: TLabel;
     Button1: TButton;
     edURL: TEdit;
     lbUrl: TLabel;
@@ -57,11 +57,11 @@ begin
 
   //delete
   if DeleteFile(wpath + NamaFile) then
-  ShowMessage('Berhasil menghapus file'+ NamaFile) ;
+//  ShowMessage('Berhasil menghapus file'+ NamaFile) ;
 
   //rename
   if RenameFile(wpath+'rsyasmin.exe', wpath + NamaFile) then
-  ShowMessage('RENAME BERHASIL');
+//  ShowMessage('RENAME BERHASIL');
 
   //download dari ftp
   ftp.Get('rsyasmin.exe','rsyasmin.exe',true);
